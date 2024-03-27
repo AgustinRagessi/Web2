@@ -1,0 +1,41 @@
+.last-step{
+    font-size: 0.6666rem;
+    text-align: center;
+    color: #507CDD;
+    margin-left: 11.5rem;
+
+}
+
+.verification-method-container{
+    display:flex;
+    width: 15.3125rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    border-color: #4D4D4D;
+    flex-shrink: 0;
+    border-width: 0.124rem;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-top: 0.56rem;
+}
+
+.verification-method-text{
+    font-size: 0.625rem;
+    color: #4D4D4D;
+}
+
+.authorization-text{
+    font-size: 0.75rem;
+    color: #4D4D4D;
+
+}
+
+.authorization-text.second{
+    padding-bottom: 1.15rem;
+}
+
+.wpp{
+    padding-right: 0.44rem;
+}

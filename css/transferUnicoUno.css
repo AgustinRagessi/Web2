@@ -1,0 +1,44 @@
+
+
+.line{
+    display: flex;
+}
+
+.receiver-container{
+    background-color: rgba(48, 63, 159, 0.2);
+    border-radius: 0.625rem;
+    border-color: rgba(48, 63, 159, 0);
+    height: 3.125rem;
+    width: 100%;
+    align-items: center;
+    padding-left: 0.4rem;
+}
+
+.money-background{
+    display: flexbox;
+    background-color: #5252FF;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 2.25rem;
+    border-radius: 0.625rem;
+    height: 6rem;
+}
+
+.receiver-container::placeholder{
+    color: #535353;
+    font-size: 0.938rem;
+    font-weight: 400;
+    
+}
+
+.transferring-input{
+    display: flex;
+}
+
+.user-input{
+    background-color: rgba(48, 63, 159, 0);
+    border:none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding-left: 0.3rem;
+
+}

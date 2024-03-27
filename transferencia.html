@@ -1,0 +1,91 @@
+<!DOCTYPE html 5>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wibond</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/transferencia.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="header-bar">
+        <a href="login.html">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M10 19L3 12M3 12L10 5M3 12L21 12"
+              stroke="#4D4D4D"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+        <div class="logo">
+          <img src="assets/cutlogo.png" />
+          <p class="weight700 header-text"><strong>W I B O N D</strong></p>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1 class="montserrat transfer-text weight600">
+        <p><strong>Transferir dinero</strong></p>
+      </h1>
+
+      <div class="lato money-background center">
+        <div class="available-money-container weight700">
+          <p class="available-money">Dinero disponible</p>
+          <p class="money">ARS $ 1.236,00</p>
+        </div>
+      </div>
+
+      <div>
+        <form>
+          <div class="black-square">
+            <legend class="weight700 montserrat white receiver-type">
+              Tipo de destino
+            </legend>
+          </div>
+          <div class="select-square montserrat weight400">
+            <label for="unique" class="text-margin">Destinatario único</label>
+            <input type="radio" />
+          </div>
+          <div class="select-square second montserrat weight400">
+            <label for="multiple" class="text-margin"
+              >Múltiples destinatarios</label
+            >
+            <input type="radio" />
+          </div>
+        </form>
+
+        <div>
+          <button class="button-next button-text weight700" type="submit">
+            Siguiente
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

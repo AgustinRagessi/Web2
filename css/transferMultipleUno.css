@@ -1,0 +1,72 @@
+.instruction-text{
+    font-size: 0.75rem;
+    color: #4D4D4D;
+    line-height: normal;
+}
+
+.buttons-container{
+    display:flex;
+    height: 8rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: auto;
+}
+
+.upload-button{
+    height: 2.8rem;
+    background-color: #507CDD;
+    display: flex;
+    border :none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+
+.download-button{
+    height: 2.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.3rem;
+    border-color: #507CDD;
+    background-color: #FFFFFF;
+    border-width: 0.12rem;
+}
+
+.download-text{
+    color:#507CDD;
+    font-size: 0.625rem;
+    text-align: center;
+    padding-left: 0.5rem;
+}
+
+.upload-text{
+    color:#FFFFFF;
+    font-size: 0.625rem;
+    text-align: center;
+    padding-left: 0.5rem;
+}
+
+.instruction-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.8rem;
+}
+
+.instruction-panel{
+    font-size: 0.67rem;
+    
+}
+
+.instruction-container-header{
+    justify-content: center;
+    display: flex;
+    border-radius: 0.625rem;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
+    width: 80%;
+    
+}

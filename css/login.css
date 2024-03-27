@@ -1,0 +1,70 @@
+.icon-login{
+    display: flex;
+    margin: auto;
+    margin-top: 50%;
+}
+
+.text-container{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    background: none;
+    border: none;
+    margin-left: 0.94rem;
+}
+
+.user-container{
+    display: flex;
+    background: rgba(48, 63, 159, 0.20);
+    border-radius: 0.625rem;
+    height: 3rem;
+    text-align: center;
+    align-items: center;    
+    margin-top: 7rem;
+}
+
+.password-container{
+    display: flex;
+    background: #F7F7F7;
+    border-radius: 0.625rem;
+    height: 3rem;
+    text-align: center;
+    align-items: center;  
+    margin-top: 0.62rem;
+}
+
+.login-button{
+    display: flex;
+    margin: auto;
+    background-color: #311B92;
+    font-size: 1.063rem;
+    font-family: "Montserrat";
+    color: white;
+    justify-content: center;
+    text-align: center;
+    padding: 0.625rem 6.5rem;
+    border-radius: 0.625rem;
+    margin-top: 3.75rem;
+    
+}
+
+.login-button:hover{
+    transition-duration: 0.3s;
+    background-color: white;
+    color: #311B92;
+    border-color: #311B92;
+}
+
+.icon-container{
+    margin-left: 0.44rem;
+}
+
+.forgot-password{
+    color: rgba(28, 25, 57, 0.80);
+    font-size: 0.75rem;
+}
+
+.forgot-password-container{
+    display:flex;
+    right: 0;
+}

@@ -1,0 +1,77 @@
+.arrow-button{
+    display: flexbox;
+    background-color: white;    
+    border-color: white;
+    border: none;
+    margin-top: 3.688rem;
+}
+
+.money-container{
+    margin-left: 1.063rem;
+    color:white;
+}
+
+.money-background{
+    display: flexbox;
+    background-color: #5252FF;
+    margin-top: 2.25rem;
+    border-radius: 0.625rem;
+    height: 6rem;
+    color: white;
+}
+
+.available-money{
+    display:flexbox;
+    font-size: 0.75rem;
+    padding-top: 1.063rem;
+}
+
+.available-money-container{
+    margin-left: 1rem;
+}
+
+.money{
+    font-size: 1.563rem;
+    margin-top: 1rem;
+
+}
+
+.text-margin{
+    margin-left: 0.5rem;
+}
+
+.button-next{
+    background: #311B92;
+    border-radius: 0.535rem;
+    display: flex;
+    margin: auto;
+    width: 90%;
+    height: 3.209rem;
+    justify-content: center;
+    position: absolute;
+    bottom: 3rem;
+}
+
+.button-text{
+    color: white;
+    font-family: "Montserrat";
+    font-size: 0.909rem;
+    font-style: normal;
+    line-height: normal;
+    padding-top: 0.9rem;
+}
+
+.receiver-type{
+    margin-left: 1rem;
+
+}
+
+.transferring-question{
+    font-size: 0.75rem;
+    font-style: normal;
+    line-height: normal;
+    margin-top: 2.438rem;
+    color: #4D4D4D;
+    margin-left: 0.2rem;
+}
+

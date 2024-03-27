@@ -1,0 +1,125 @@
+<!DOCTYPE html 5>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wibond</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/transferencia.css" />
+    <link rel="stylesheet" href="css/transferUnicoTres.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-bar">
+        <a href="transferUnicoDos.html">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M10 19L3 12M3 12L10 5M3 12L21 12"
+              stroke="#4D4D4D"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </a>
+        <div class="logo">
+          <img src="assets/cutlogo.png" />
+          <p class="weight700 header-text"><strong>W I B O N D</strong></p>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1 class="montserrat transfer-text weight600">
+        <p><strong>Verificación</strong></p>
+      </h1>
+
+      <div class="progress-bar">
+        <img src="assets/progressDone.svg" />
+        <img class="line" src="assets/greenLine.svg" />
+        <img src="assets/progressActive.svg" />
+        <img class="line"" src="assets/line.svg">
+        <img src="assets/stepIncomplete.svg" />
+      </div>
+
+      <div class="Montserrat weight600">
+        <p>
+          Revisa que la información sea correcta para proceder con la
+          transferencia.
+        </p>
+      </div>
+
+      <div>
+        <div class="black-square">
+          <p class="weight600 white montserrat receiver-type">Resumen</p>
+          <div class="note-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M11 5H6C4.89543 5 4 5.89543 4 7V18C4 19.1046 4.89543 20 6 20H17C18.1046 20 19 19.1046 19 18V13M17.5858 3.58579C18.3668 2.80474 19.6332 2.80474 20.4142 3.58579C21.1953 4.36683 21.1953 5.63316 20.4142 6.41421L11.8284 15H9L9 12.1716L17.5858 3.58579Z"
+                stroke="white"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+
+        <div class="transfer-recipient-container">
+          <p class="Montserrat weight600 transfer-recipient">
+            Destino de transferencia.
+          </p>
+
+          <div contact-container>
+            <div class="contact-acronym-background">
+              <p class="contact-acronym Montserrat weight600">AS</p>
+            </div>
+            <div class="contact-text-container Montserrat weight500">
+              <p>Ailen Saraceni</p>
+              <p>CUIT 23392954864</p>
+            </div>
+
+            <div payment-container>
+              <p class="payment-text weight600 Montserrat">Importe</p>
+              <p class="payment-number weight500 Montserrat">ARS $1.500,00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div>
+          <button class="button-next button-text weight700" type="submit">
+            Siguiente
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
